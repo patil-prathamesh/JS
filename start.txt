@@ -1,1 +1,20 @@
 Staring to learn JS!!!!
+
+-->variables
+const,let,var
+only use const and let
+let num; -> undefined
+console.table([num,id,roll])
+
+-->DataTypes
+(call by value) primitives (7) - string,number,Boolean,null,undefined,symbol,BigInt
+(call by Reference) Reference (non-primitives) -  Array,object,functions
+number,string,boolean,object,null,undefined
+typeof(null) - object
+typeof(undefined) - undefined
+
+-->conversion
+string-number '12a'-NaN
+Number() Boolean() String()
+
+(null > 0) - false (0 > 0)
