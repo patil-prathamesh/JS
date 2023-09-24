@@ -9,3 +9,11 @@ console.table([accountId,name,roll,state])
 let nem = ""
 let num = Boolean(nem) //false
 console.log(num);
+
+let userOne = {
+    email : "user@google.com",
+    upi : "user@ybl",
+}
+let userTwo = userOne;
+userTwo.upi = "no";
+console.log(userOne.upi);
