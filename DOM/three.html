@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: #212121;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+<script>
+    const div = document.createElement('div')
+    console.log(div);
+    div.className = 'main'
+    div.id = Math.round(Math.random()*10 +1)
+    div.setAttribute('title','generated title')
+    div.style.height = '60px'
+    div.style.width = '60px'
+    div.style.backgroundColor = 'lightpink'
+    div.style.overflow = 'hidden'
+    div.style.margin = 'auto'
+    // const addText = document.createTextNode('chai aur code!')
+    // div.appendChild(addText)
+    // div is only in memory
+
+    // Attach to page !
+    // document.createTextNode()
+    document.body.appendChild(div)
+</script>
+</html>
