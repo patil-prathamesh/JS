@@ -1,0 +1,2 @@
+future mai complete hotai
+Realtime examples - Db calls, file request,networking,cryptography - password encryption
