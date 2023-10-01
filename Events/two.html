@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Prthmsh patil</h1>
+    <button id="submit">Submit</button>
+    <script>
+        const sayXyz = function () {
+            document.querySelector('h1').innerHTML = 'xyz'
+        }
+        const changeMe = setTimeout(sayXyz,3000)
+        document.querySelector('#submit').addEventListener('click',function () {
+                    // reference
+            clearTimeout(changeMe)
+            console.log('Stoppedd');
+        })
+
+
+        // setInterval(() => {
+        //     console.log('Nikhil Patil');
+        // }, 1000);
+    </script>
+</body>
+</html>

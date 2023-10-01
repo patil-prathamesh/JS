@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="">chai aur JavaScript</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <script>
+        let start = document.querySelector('#start')
+        let stop = document.querySelector('#stop')
+        let displayMsg = function () {
+            let date = new Date()
+            console.log(date.toLocaleTimeString());
+        }
+        let setInterval1
+        start.addEventListener('click',function () {
+            setInterval1 = setInterval(displayMsg,1000)
+        })
+
+        stop.addEventListener('click',function () {
+            clearInterval(setInterval1)
+        })
+    </script>
+</body>
+</html>
